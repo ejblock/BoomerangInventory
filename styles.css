@@ -1,0 +1,105 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 20px;
+    background-color: #d6d8b9;
+    text-align: center;
+    color: #333;
+}
+
+h1 {
+    color: #333333;
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+img {
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #3b843d; 
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 1em;
+    margin: 5px;
+}
+
+button:hover {
+    background-color: #204922; 
+}
+
+button:focus {
+    outline: none;
+    box-shadow: 0 0 5px #4CAF50;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    background-color: #f2f2f2;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: center;
+}
+
+th {
+    background-color: #333333;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+td {
+    background-color: #4a4d5070; 
+    color: #333;
+}
+
+tr:nth-child(even) td {
+    background-color: #4a4d509b; 
+}
+
+tr:hover td {
+    background-color: #cacaca; 
+}
+
+
+input[type="number"], input[type="text"], input[type="password"], input[type="date"], select {
+    width: 150px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: 1em;
+}
+
+@media (max-width: 768px) {
+    table, th, td {
+        font-size: 0.9em;
+    }
+
+    button {
+        width: 100%;
+        padding: 15px;
+        font-size: 1.2em;
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+    }
+}
+
